@@ -13,6 +13,10 @@
 		DFAF100E2B4405A700BAF964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFAF100C2B4405A700BAF964 /* Main.storyboard */; };
 		DFAF10102B4405A900BAF964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAF100F2B4405A900BAF964 /* Assets.xcassets */; };
 		DFAF10132B4405A900BAF964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFAF10112B4405A900BAF964 /* LaunchScreen.storyboard */; };
+		DFAF101E2B44060700BAF964 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF101C2B44060700BAF964 /* MyTableViewCell.swift */; };
+		DFAF101F2B44060700BAF964 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFAF101D2B44060700BAF964 /* MyTableViewCell.xib */; };
+		DFAF10222B44062C00BAF964 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF10202B44062C00BAF964 /* MyCollectionViewCell.swift */; };
+		DFAF10232B44062C00BAF964 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFAF10212B44062C00BAF964 /* MyCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DFAF100F2B4405A900BAF964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFAF10122B4405A900BAF964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFAF10142B4405A900BAF964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFAF101C2B44060700BAF964 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		DFAF101D2B44060700BAF964 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		DFAF10202B44062C00BAF964 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFAF10212B44062C00BAF964 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		DFAF10052B4405A700BAF964 /* CollectionView_in_TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				DFAF101B2B4405C500BAF964 /* ColllectionViewCell */,
+				DFAF101A2B4405AE00BAF964 /* TableViewCell */,
 				DFAF10062B4405A700BAF964 /* AppDelegate.swift */,
 				DFAF10082B4405A700BAF964 /* SceneDelegate.swift */,
 				DFAF100A2B4405A700BAF964 /* ViewController.swift */,
@@ -65,6 +75,24 @@
 				DFAF10142B4405A900BAF964 /* Info.plist */,
 			);
 			path = CollectionView_in_TableViewCell;
+			sourceTree = "<group>";
+		};
+		DFAF101A2B4405AE00BAF964 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DFAF101C2B44060700BAF964 /* MyTableViewCell.swift */,
+				DFAF101D2B44060700BAF964 /* MyTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		DFAF101B2B4405C500BAF964 /* ColllectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DFAF10202B44062C00BAF964 /* MyCollectionViewCell.swift */,
+				DFAF10212B44062C00BAF964 /* MyCollectionViewCell.xib */,
+			);
+			path = ColllectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFAF10232B44062C00BAF964 /* MyCollectionViewCell.xib in Resources */,
 				DFAF10132B4405A900BAF964 /* LaunchScreen.storyboard in Resources */,
+				DFAF101F2B44060700BAF964 /* MyTableViewCell.xib in Resources */,
 				DFAF10102B4405A900BAF964 /* Assets.xcassets in Resources */,
 				DFAF100E2B4405A700BAF964 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFAF100B2B4405A700BAF964 /* ViewController.swift in Sources */,
+				DFAF10222B44062C00BAF964 /* MyCollectionViewCell.swift in Sources */,
+				DFAF101E2B44060700BAF964 /* MyTableViewCell.swift in Sources */,
 				DFAF10072B4405A700BAF964 /* AppDelegate.swift in Sources */,
 				DFAF10092B4405A700BAF964 /* SceneDelegate.swift in Sources */,
 			);
